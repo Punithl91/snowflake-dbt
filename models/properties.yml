@@ -1,0 +1,7 @@
+models: 
+  - name: emp_dim
+    config:
+      materialized: 'table'
+  - name: emp_union_dim
+    config:
+      materialized: 'view'
