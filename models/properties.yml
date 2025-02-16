@@ -13,3 +13,6 @@ models:
   - name: emp_union_dim
     config:
       materialized: 'view'
+  - name: contry_dim
+    config:
+      materialized: 'table'
