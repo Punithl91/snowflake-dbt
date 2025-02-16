@@ -3,6 +3,8 @@ model-paths: ["models"]
 models: 
   materialized: 'view'
 seed-paths: ["seeds"]
+analysis-paths:
+  - "analysis"
   
 
 
