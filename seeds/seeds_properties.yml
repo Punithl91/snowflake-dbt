@@ -1,0 +1,7 @@
+seeds: 
+  - name: contry_code
+    config:
+      full_refresh: true
+      column_types: 
+        ContryName: varchar(15)
+        ContryCode: varchar(5)
