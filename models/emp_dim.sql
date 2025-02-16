@@ -1,1 +1,1 @@
-select * from test_db.test_schema.emp
+select * from {{source("emp source","emp")}}
