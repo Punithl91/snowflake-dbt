@@ -1,3 +1,11 @@
+
+sources:
+  - name: "emp source"
+    database: test_db
+    schema: test_schema
+    tables:
+      - name: emp
+
 models: 
   - name: emp_dim
     config:
