@@ -5,6 +5,8 @@ models:
 seed-paths: ["seeds"]
 analysis-paths:
   - "analysis"
+macro-paths:
+  - "macros"
   
 
 
