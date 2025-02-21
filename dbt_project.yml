@@ -7,6 +7,8 @@ analysis-paths:
   - "analysis"
 macro-paths:
   - "macros"
+snapshot-paths:
+  - "snapshots"
   
 
 
