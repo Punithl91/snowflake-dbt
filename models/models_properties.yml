@@ -5,6 +5,8 @@ sources:
     schema: test_schema
     tables:
       - name: emp
+      - name: pii_raw
+      - name: marketing
 
 models: 
   - name: emp_dim
@@ -16,3 +18,16 @@ models:
   - name: contry_dim
     config:
       materialized: 'table'
+  - name: pii_target
+    config:
+      materialized: 'table'
+    columns:
+      - name: "ID"
+        tests:
+          - unique
+          - not_null
+      - name: "gender"
+        tests:
+          - accepted_values:
+              values: ['Male','Female']
+              

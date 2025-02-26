@@ -9,6 +9,8 @@ macro-paths:
   - "macros"
 snapshot-paths:
   - "snapshots"
+test-paths:
+  - "tests"
   
 
 
