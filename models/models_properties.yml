@@ -30,4 +30,12 @@ models:
         tests:
           - accepted_values:
               values: ['Male','Female']
+  - name: marketing_target
+    columns:
+      - name: "sales"
+        tests:
+          - new_generic_sales_test
+      - name: "cost"
+        tests:
+          - new_generic_sales_test
               
