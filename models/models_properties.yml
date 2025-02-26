@@ -38,4 +38,8 @@ models:
       - name: "cost"
         tests:
           - new_generic_sales_test
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 100
+              max_value: 1000
+
               
