@@ -1,0 +1,9 @@
+sources:
+  - name: "snowflake source"
+    database: snowflake_dbt_test
+    schema: raw
+    tables:
+      - name: raw_customers
+      - name: raw_orders
+      - name: raw_payments
+
