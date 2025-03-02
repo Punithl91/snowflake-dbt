@@ -4,7 +4,7 @@ with raw as (
      final as (
         select 
             id as customer_id,
-          f irst_name,
+            first_name,
             replace(last_name,'.','') as last_name
             from 
                 raw
