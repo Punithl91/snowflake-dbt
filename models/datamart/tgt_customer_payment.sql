@@ -1,3 +1,10 @@
+{{
+    config(
+        database='retail_bi_db',
+        schema='retail_bi_schema',
+        materialized='table')
+}}
+
 with customers as (
     select * from {{ref('stg_customers')}}
 ),
